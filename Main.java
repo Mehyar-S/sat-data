@@ -23,8 +23,15 @@ public class Main {
     }
 
     // make sure all data entered the ArrayList
+    System.out.println(totalScore);
     System.out.println(totalScore.size() + " students took the test.");
-    
+
+    double sum = 0.0;
+    for (int score : totalScore) {
+      total += score;
+    } 
+    double average = sum / totalScore.size();
+    System.out.println("The average is " + average + ".")
   }
 
 }
