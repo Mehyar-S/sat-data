@@ -28,10 +28,10 @@ public class Main {
 
     double sum = 0.0;
     for (int score : totalScore) {
-      total += score;
+      sum += score;
     } 
     double average = sum / totalScore.size();
-    System.out.println("The average is " + average + ".")
+    System.out.println("The average is " + average + ".");
   }
 
 }
